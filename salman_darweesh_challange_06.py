@@ -2,7 +2,7 @@ import random       # immporting random numbers
 
 def writing_part():     # new def that takes the number transfered from starting()
     user_rand_value = starting()    # calls the starting function 
-    with open (r"/Users/salmandarweesh/Desktop/testing.txt", "w") as file:      # while true to make a file, no need for closing line of code
+    with open (r"/Users/Burres/Desktop/Salman_Challenge_6.txt", "w") as file:      # while true to make a file, no need for closing line of code
                 for i in range(user_rand_value):    
                     rand_number = random.randint(1, 500)    #generates random numbers based on the user given value
                     file.write(str(rand_number) + '\n')     # writes the numbers on different lines. 
