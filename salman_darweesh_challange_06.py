@@ -27,3 +27,5 @@ MOdule 5 Lecture code for random number int
 Module 6 looking at loops with exceptions
 Ch 6 page 383
 '''
+# at first i ran into an issue where it was not able to run and the except was not working, it would just give errors, 
+# i restarted and changed the way i did the coding
