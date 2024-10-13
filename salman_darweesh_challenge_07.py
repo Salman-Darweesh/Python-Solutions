@@ -1,6 +1,6 @@
 # i feel like there are lots of mistakes in this challenge, primarly cause i was more
 # focused on other subjects and tried to ge this working even though i feel like its a little messy
-
+GOOD = ("The password you have entered is great.")
 def Stored_Passwords(CheckPass):    #using the required def
     global GOOD     # trying to use global to use GOOD in more that one function
     password_tuple = ("123456", "123456789", "12345", "qwerty", "password", "12345678", "111111", "123123", "1234567890", "1234567", "qwerty123", "000000", 
@@ -22,7 +22,6 @@ def Stored_Passwords(CheckPass):    #using the required def
 
 def Get_User_Pass():
     global GOOD     # i probably use global wrong, please let me know if I used it correctly or not (im just trying to add things here and there)
-    GOOD = ("The password you have entered is great.")
     username = input("Please neter a Username you would like to use: ")     # asking user to give me a username
     
     while True:     # this is where the loop starts, asking them to give me a good password
@@ -41,6 +40,8 @@ if __name__ == "__main__":
     
     
     '''
-    refrences: 
-    
+    Refrences: 
+    Module 5 lines 10 - 49 
+    Module 6 lines 29 - 48 
+    Module 7 lines 1 - 70
     '''
