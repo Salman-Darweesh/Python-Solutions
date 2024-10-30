@@ -1,11 +1,11 @@
 
 
-# attributes
+# attributes, if given an attribute then it would be pointless to make the rest of the program
 health = "" 
 armor_rating = ""
 attack_power = ""
 
-class PlayerCharacter: 
+class PlayerCharacter:  # creating a class for the player
 
     def __init__(self,health,armor_rating,attack_power):
         self._health = health
