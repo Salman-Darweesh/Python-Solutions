@@ -16,7 +16,7 @@ def Stored_Passwords(CheckPass):    #using the required def
         return womp_womp    # sending the info backm and putting the user back in the loop
     
     else:
-        GOOD = ("The password you have entered is great.")   # telling user the password woked
+        GOOD  # telling user the password woked
         return GOOD     # putting the user back in the loop
 
 

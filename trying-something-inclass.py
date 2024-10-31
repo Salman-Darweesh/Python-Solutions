@@ -1,7 +1,5 @@
 
-
-
-
+'''
 def morseCodeConverter():
     
     morse_dictonary = {'a': '.-', 'b': '-...', 'c': '-.-.'}
@@ -25,15 +23,42 @@ def sub_dicton():
 
         if "Author" in lib_2:
             print(
+                
+morseCodeConverter()
+sub_dicton()
+    
+'''
+    # Building a program with multiple files 
+    # vehcle class whch we will use as the superclass for inherited classes - car, plane, boat
+  
+  
+    
+class Vehicle:
+    
+    doors = 4 
+    wheels = 4 
+    engine = "V8"
+    windows = 4 
+    color = "Red"
+    make = "Ford"
+    model = "mustang"
     
     
     
+    # Create a constructor for vehicle class objects 
+    def __name__(self, doors, wheels, engine, windows, color, make, model ):
     
-    
-
-    
-
+      self.doors = doors
+      self.wheels = wheels
+      self.engine = engine
+      self.windows = windows
+      self.color = color
+      self.make = make
+      self.model = model
+        
+    pass 
 
 if __name__ == "__main__":
-    morseCodeConverter()
-    sub_dicton()
+
+    myCar = Vehicle()
+    print(myCar)
