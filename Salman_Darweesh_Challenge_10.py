@@ -24,13 +24,13 @@ class PlayerCharacter:  # creating a class for the player
         self.attack_power = _attack_power       #Setting stat
 
     def get_health(self):   #creating a function for the stat
-        return self.health      # returning stat value
+        return self.health      # returning stat value (Getting)
 
     def get_armor_rating(self):   #creating a function for the stat
-        return self.armour_rating    # returning stat value
+        return self.armour_rating    # returning stat value(Getting)
 
     def get_attack_power(self):   #creating a function for the stat
-        return self.attack_power    # returning stat value
+        return self.attack_power    # returning stat value(Getting)
 
     def __str__(self):
         # shows user all details of the character with the values they choose
