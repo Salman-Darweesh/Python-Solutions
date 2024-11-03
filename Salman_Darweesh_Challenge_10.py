@@ -67,9 +67,9 @@ def main():
         
     print(f"Char power of: {charac_Power}")     #reitterates whats the chosen value for the stat
     
-    Wizard = PlayerCharacter(charac_Health, charac_Armor, charac_Power)
+    Wizard = PlayerCharacter(charac_Health, charac_Armor, charac_Power)     #where all values are taken to consideration for the class
         
-    print(Wizard)
+    print(Wizard)   #printing output fo for all the values
 
 if __name__ == "__main__":  # where the program starts
         main()     # calling the specific fuction to start
