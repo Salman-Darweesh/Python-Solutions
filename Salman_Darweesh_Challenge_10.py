@@ -74,3 +74,11 @@ def main():
 if __name__ == "__main__":  # where the program starts
         main()     # calling the specific fuction to start
         
+        
+'''
+Refrences: 
+Class Lecture, and question asked after class
+Module 7 
+MOdule 9
+ch10 book
+''' 
