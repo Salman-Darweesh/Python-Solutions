@@ -1,3 +1,5 @@
+
+
 # i feel like there are lots of mistakes in this challenge, primarly cause i was more
 # focused on other subjects and tried to ge this working even though i feel like its a little messy
 GOOD = ("The password you have entered is great.")

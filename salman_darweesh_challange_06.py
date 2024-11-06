@@ -1,3 +1,7 @@
+
+
+
+
 import random       # immporting random numbers
 
 def writing_part():     # new def that takes the number transfered from starting()
