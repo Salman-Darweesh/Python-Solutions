@@ -68,7 +68,7 @@ if __name__ in "__main__":
     
     customer_number = input("Please enter your customer number: ").upper()
     
-    customer_mail_list = input("Would you like to sign up to a mailing list (yes or no)? ")
+    customer_mail_list = input("Would you like to sign up to a mailing list (yes or no)? ").upper()
     
     while customer_mail_list != "YES" or customer_mail_list != "NO":
         if customer_mail_list == "YES" or customer_mail_list == "NO":
