@@ -54,31 +54,30 @@ class Customer(Person):
     
     def get_customer_mail_list(self):
         return customer_mail_list
-    
-    
-    def printing_results():
-        customer_mail_list = input("Would you like to sign up for the mailing list that we have (yes or no): ")
-        customer_mail_list.lower()
 
+
+            
 
 if __name__ in "__main__":
+
+    customer_name = input("PLease enter your name: ").upper()
     
-    customer_name = input("PLease enter your name: ")
+    customer_tele = input("Please enter your current telephone number: ").upper()
     
-    customer_tele = input("Please enter your current telephone number: ")
+    customer_living_space = input("Please enter yout current address ").upper()
     
-    customer_living_space = input("Please enter yout current address ")
+    customer_number = input("Please enter your customer number: ").upper()
     
-    customer_number = input("Please enter your customer number: ")
+    customer_mail_list = input("Would you like to sign up to a mailing list (yes or no)? ")
     
-    customer_mail_list = input("Would you like to sign up to a mailing list (y or n)? ")
+    while customer_mail_list != "YES" or customer_mail_list != "NO":
+        if customer_mail_list == "YES" or customer_mail_list == "NO":
+            break
+        
+        else:
+            customer_mail_list = input("Try Again, using only yes or no: ").upper()
+        
     
     user = Customer(customer_name, customer_tele, customer_living_space, customer_number, customer_mail_list)
-    
-    while True:
-        
-            print(f"You have chosen to  sign up for the mail list")
-            
- 
         
     print(f"Hello {customer_name} your tele number is {customer_tele}, living in {customer_living_space} and you chose to {customer_mail_list} ")
