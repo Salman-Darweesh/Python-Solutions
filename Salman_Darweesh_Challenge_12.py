@@ -18,10 +18,18 @@ def getting_the_sum(n):
 if __name__ in "__main__":
     user_chosen_value = int(input("What calue would you like to find the complete sum of (between 0 and 100): "))
 
-    while user_chosen_value not in range(0, 101):
+    while user_chosen_value not in range(1, 101):
         print("you have not entered a valid number, try again.")
         user_chosen_value = int(input("What calue would you like to find the complete sum of (between 0 and 100): "))
     
     sum_of_number = getting_the_sum(user_chosen_value)
     
-    print(f"The total sum of your value is -- {sum_of_number} -- based on the given value of -- {user_chosen_value} -- " )
+    print(f"The total sum of your value is -- {sum_of_number} -- ")
+    print(f"Based on the given value of -- {user_chosen_value} -- ")
+    
+    
+'''
+Refrences:
+Module 10
+Chapter 12 Book
+'''
