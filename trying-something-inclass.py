@@ -27,12 +27,12 @@ def sub_dicton():
 morseCodeConverter()
 sub_dicton()
     
-'''
+
+  --------------------------------------------------------------------------------------------------
+  
+
     # Building a program with multiple files 
     # vehcle class whch we will use as the superclass for inherited classes - car, plane, boat
-  
-  
-    
 class Vehicle:
     
     doors = 4 
@@ -62,3 +62,29 @@ if __name__ == "__main__":
 
     myCar = Vehicle()
     print(myCar)
+'''
+    
+    
+    
+    
+# ----------------------------------recursive problems------------------------------------------
+# greatest common denom if X can be eenly divided by Y then GCD of x and y is y 
+# otherwise the GCD of x and y is equal to (GCD of y and GCD of the remainder of x/y)
+
+#x == num    y == denom
+def GCD(x, y):
+    
+    #Base Case
+    if x % y == 0:
+        return y
+    
+    else:
+        return GCD(y, x % y )
+    
+    
+
+if __name__ == "__main__":
+
+        result = GCD(14, 7)
+        print(result)
+
