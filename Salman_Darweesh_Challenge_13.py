@@ -6,7 +6,7 @@ import re
 
 
 def checking_if_valid(password_given):
-    pattern = r"^[a-zA-Z0-9@#$%*!]{8,}$" #reating a regex object using the raw string
+    pattern = r"^[a-z A-Z 0-9 @#$%*!]{8,}$" #reating a regex object using the raw string
     
     if re.match(pattern, password_given):
         print("Valid.")
