@@ -120,3 +120,29 @@ if re.match(pattern_2, phone):
 else:
     print("That is NOT valid")
 '''
+
+
+
+    # MY FIRST GUI
+
+import tkinter
+import tkinter.messagebox
+
+class firstGUI():
+    def __init__(self):
+        self.main_window = tkinter.Tk()
+        
+        # set the dimentions of the window
+        self.main_window.geometry("800x800")
+        
+        #set postion of the window on the screen 
+        self.main_window.eval("tk::PlaceWindow . center")
+        
+        #set the windows title bar 
+        self.main_window.title("my First GUI")
+        
+        tkinter.mainloop()
+
+
+if __name__ in "__main__":
+    dane = firstGUI
