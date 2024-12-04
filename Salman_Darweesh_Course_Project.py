@@ -96,8 +96,8 @@ def character_Creation():
     print("1: Human\n2: Elf\n3: Dwarf")
     print("_________\n")
     character_Choice = input("Please pick a character (1, 2, 3): ")
-    height = input("Please enter a Height for your character (3ft - 7ft): ")
-    weight = input("Please enter a Weight for your character (60lbs - 300lbs): ")
+    height = float(input("Please enter a Height for your character (3ft - 7ft): "))
+    weight = float(input("Please enter a Weight for your character (60lbs - 300lbs): "))
     hairColor = input("Please enter a Hair Color for your character (white, silver, gray, black, brown, green, blue, yellow, pink, red, blonde): ")
     eyeColor = input("Please enter an Eye Color for your character (white, black, red, green, blue, brown, purple, amber): ")
     
