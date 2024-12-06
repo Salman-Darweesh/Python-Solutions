@@ -1,5 +1,10 @@
 
-import tkinter
+import tkinter as tk
+import tkinter.font
+
+class holywood_star():
+    
+    def
 
 class firstGUI():
     def __init__(self):

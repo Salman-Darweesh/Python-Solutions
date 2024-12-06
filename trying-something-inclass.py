@@ -122,7 +122,7 @@ else:
 '''
 
 
-
+'''
     # MY FIRST GUI
 
 import tkinter
@@ -146,3 +146,5 @@ class firstGUI():
 
 if __name__ in "__main__":
     my_gui = firstGUI()
+'''
+
