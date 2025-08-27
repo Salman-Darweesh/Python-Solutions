@@ -2,80 +2,89 @@
 
 import random
 
+    
 class Humanoid:
+    strength = ''
+    dexterity = '' 
+    constitution = '' 
+    intelligence = ''
+    wisdom = ''
+    charisma = ''
+    
+    
     def __init__(self, height, weight, hairColor, eyeColor, strength, dexterity, constitution, intelligence, wisdom, charisma):
-        self._height = height
-        self._weight = weight
-        self._hairColor = hairColor
-        self._eyeColor = eyeColor
-        self._strength = strength
-        self._dexterity = dexterity
-        self._constitution = constitution
-        self._intelligence = intelligence
-        self._wisdom = wisdom
-        self._charisma = charisma
+        self.height = height
+        self.weight = weight
+        self.hairColor = hairColor
+        self.eyeColor = eyeColor
+        self.strength = strength
+        self.dexterity = dexterity
+        self.constitution = constitution
+        self.intelligence = intelligence
+        self.wisdom = wisdom
+        self.charisma = charisma
         
         # Setters and Getters for BAse stats
     def get_height(self):
-        return self._height
+        return self.height
 
     def set_height(self, height):
-        self._height = height
+        self.height = height
 
     def get_weight(self):
-        return self._weight
+        return self.weight
 
     def set_weight(self, weight):
-        self._weight = weight
+        self.weight = weight
 
     def get_hair_color(self):
-        return self._hair_color
+        return self.hair_color
 
     def set_hair_color(self, hair_color):
-        self._hair_color = hair_color
+        self.hair_color = hair_color
 
     def get_eye_color(self):
-        return self._eye_color
+        return self.eye_color
 
     def set_eye_color(self, eye_color):
-        self._eye_color = eye_color
+        self.eye_color = eye_color
 
         # Setters and Getters for other stats Stats
     def get_strength(self):
-        return self._strength
+        return self.strength
 
     def set_strength(self, strength):
-        self._strength = strength
+        self.strength = strength
 
     def get_dexterity(self):
-        return self._dexterity
+        return self.dexterity
 
     def set_dexterity(self, dexterity):
-        self._dexterity = dexterity
+        self.dexterity = dexterity
 
     def get_constitution(self):
-        return self._constitution
+        return self.constitution
 
     def set_constitution(self, constitution):
-        self._constitution = constitution
+        self.constitution = constitution
 
     def get_intelligence(self):
-        return self._intelligence
+        return self.intelligence
 
     def set_intelligence(self, intelligence):
-        self._intelligence = intelligence
+        self.intelligence = intelligence
 
     def get_wisdom(self):
-        return self._wisdom
+        return self.wisdom
 
     def set_wisdom(self, wisdom):
-        self._wisdom = wisdom
+        self.wisdom = wisdom
 
     def get_charisma(self):
-        return self._charisma
+        return self.charisma
 
     def set_charisma(self, charisma):
-        self._charisma = charisma
+        self.charisma = charisma
         
 
     def random_stats_generator(self):
@@ -85,6 +94,9 @@ class Humanoid:
         self._intelligence = random.randint(1, 18)
         self._wisdom = random.randint(1, 18)
         self._charisma = random.randint(1, 18)
+        
+    def showing_stats(self):
+        print(f"Here are the stats for your character: ")
     
     
     

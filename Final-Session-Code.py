@@ -34,12 +34,13 @@ def sanitize(unsanitized_string):
             print("", end="")
         
     san_string = "".join(san_string)
+    
+    function_sanitize(san_string)
 
-def function_sanitize(rec_san_string):
-
-    username_dict = {}
-    username_dict["iLovepizza"] = rec_san_string
-    print(username_dict)
+def function_sanitize(san_string):
+    data = {"username1", (san_string)}
+    for username in data:
+        print(data)
 
 if __name__ in "__main__":
     
